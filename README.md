@@ -26,3 +26,4 @@ ctrl-shift-r : Run current file
 ctrl-shift-enter : Run current Line
 ```
 
+## Chapter 2: Input/Output ports
