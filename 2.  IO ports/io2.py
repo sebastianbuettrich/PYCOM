@@ -36,3 +36,4 @@ while True:
             time.sleep(2)
             j.value(0)
             time.sleep(2)
+            ++y
