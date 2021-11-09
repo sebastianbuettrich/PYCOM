@@ -1,5 +1,5 @@
 # PYCOM
-software development for pycom platform
+Software development for pycom platform
 
 ## Chapter 1: Getting started
 Commands
