@@ -1,7 +1,8 @@
 # PYCOM
 Software development for pycom platform
+## BASIC:
 
-## Chapter 1: Getting started
+### Chapter 1: Getting started
 Commands
 ```
 Connect (ctrl-shift-c) : Connects to the board
@@ -26,4 +27,6 @@ ctrl-shift-r : Run current file
 ctrl-shift-enter : Run current Line
 ```
 
-## Chapter 2: Input/Output ports
+### Chapter 2: Input/Output ports
+
+## ADVANCE:
