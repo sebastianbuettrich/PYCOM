@@ -22,9 +22,9 @@ import time
 ```
 ### Code Structures:
 ```
-variable= Pin('PIN', mode=Pin.MODE)                          variable.value(x)                     time.sleep(s)
-PIN-> selected pin (P8,P9)                                     x-> 1: HIGH                          s-> stopping the machine in seconds
-       MODE-> OUT                                              0: LOW                               time.sleep_ms(ms) 
+variable= Pin('PIN', mode=Pin.MODE)                 variable.value(x)                     time.sleep(s)
+PIN-> selected pin (P8,P9)                             x-> 1: HIGH                          s-> stopping the machine in seconds
+       MODE-> OUT                                      0: LOW                               time.sleep_ms(ms) 
               IN                                                                                    ms -> stopping the machine in miliseconds
 ```
 ## Examples:
