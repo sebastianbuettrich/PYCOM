@@ -36,5 +36,10 @@ pwm = PWM(0, frequency=5000)  # use PWM timer 0, with a frequency of 5KHz
 ```
 ## Examples:
 ```
-adc1.py -> Simple Output ports configuration (Hello World..!!)
+adc1.py -> Simple analog digital test
+dac1.py -> Simple digital analog test
+dac2.py -> PWM
+dac3.py -> ADC and DAC configuration
+dac4.py -> Input port and PWM configuration
+
 ```
