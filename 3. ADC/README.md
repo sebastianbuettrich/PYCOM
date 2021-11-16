@@ -7,8 +7,15 @@ ADC:
 To describe a phenomenon, it is necessary to represent it the most of the cases in voltage. Then, this signal can be scaled to finite numbers called registers. Generally, these registers can be 10,12, and 16 bits.  
 
 DAC: 
-Most used in pulse-width modulation. The duty cycle of a periodic signal is the relative width of its positive part about the period
+Most used in pulse-width modulation. The duty cycle of a periodic signal is the relative width of its positive part about the period. Frequency can be from 125Hz to 20kHz in steps of 122Hz. amplitude is an integer specifying the tone amplitude to write the DAC pin. Amplitude value represents:
 
+0 is 0dBV (~ 3Vpp at 600 Ohm load)
+
+1 is -6dBV (~1.5 Vpp),
+
+2 is -12dBV (~0.8 Vpp)
+
+3 is -18dBV (~0.4 Vpp).
 
 PinOut:
 ![Esta es una imagen](https://github.com/puldavid87/PYCOM/blob/main/fipy-pinout.png)
@@ -29,8 +36,5 @@ pwm = PWM(0, frequency=5000)  # use PWM timer 0, with a frequency of 5KHz
 ```
 ## Examples:
 ```
-io1.py -> Simple Output ports configuration (Hello World..!!)
-io2.py -> For and If cycles with output ports configuration
-io3.py -> Simple Input configuration
-io4.py -> button configuration avoiding rebounds
+adc1.py -> Simple Output ports configuration (Hello World..!!)
 ```
