@@ -31,4 +31,6 @@ PIN-> selected pin (P8,P9)                             x-> 1: HIGH              
 ```
 io1.py -> Simple Output ports configuration (Hello World..!!)
 io2.py -> For and If cycles with output ports configuration
+io3.py -> Simple Input configuration
+io4.py -> button configuration avoiding rebounds
 ```
