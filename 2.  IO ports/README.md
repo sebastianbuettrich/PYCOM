@@ -11,7 +11,7 @@ Input:
 
 PinOut:
 
-![Esta es una imagen](/main/fipy-pinout.png)
+![Esta es una imagen](https://github.com/puldavid87/PYCOM/blob/main/fipy-pinout.png)
 
 # Libraries:
 ```
