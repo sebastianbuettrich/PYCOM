@@ -2,7 +2,7 @@ from machine import DAC, PWM
 import time
 pwm = PWM(0, frequency=500)  # use PWM timer 0, with a frequency of 500Hz
 dac = DAC('P22')        # create a DAC object
-pwm_c = pwm.channel(0, pin='P23') # create pwm channel on pin P12 with a duty cycle of 50%
+pwm_c = pwm.channel(0, pin='P23') # create pwm channel on pin P23 with a duty cycle of 50%
 while True:
     for i in range(10):
         dato=i/10
