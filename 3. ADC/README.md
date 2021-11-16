@@ -1,4 +1,4 @@
-# Input / Output ports
+# ANALOG-DIGITAL CONVERTER
 ## Theory:
 ### Functionality:
 
