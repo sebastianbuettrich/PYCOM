@@ -1,10 +1,10 @@
 from machine import Pin
 import time
 # individual configuration
-led1 = Pin('P13', mode=Pin.OUT)
-led2 = Pin('P14', mode=Pin.OUT)
-led3= Pin('P15', mode=Pin.OUT)
-led4 = Pin('P16', mode=Pin.OUT)
+led1 = Pin('P13', mode=Pin.OUT) #p13 as output
+led2 = Pin('P14', mode=Pin.OUT) #p14 as output
+led3= Pin('P15', mode=Pin.OUT)  #p15 as output
+led4 = Pin('P16', mode=Pin.OUT)  #p16 as output
 
 while True:
     led1.value(1)     #turn on led 1 and 2
