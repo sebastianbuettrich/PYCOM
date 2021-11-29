@@ -15,4 +15,5 @@
 ## Examples:
 ```
 cx1.py -> Read/Write chart/strings
+cx2.py -> convert string to int serial cx
 ```
