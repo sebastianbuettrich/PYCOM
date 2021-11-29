@@ -1,3 +1,14 @@
+#!/usr/bin/env python
+#
+# Copyright (c) 2019, IT university of Copenhagen
+#
+# This software is licensed under the GNU GPL version 3 or any
+# later version, with permitted additional terms. For more information
+# see the Pycom Licence v1.0 document supplied with this file
+# Code: dac1.py -> Simple digital analog test
+# IoT course
+#
+
 from machine import DAC 
 import time
 
