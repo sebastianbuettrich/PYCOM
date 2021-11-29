@@ -1,3 +1,16 @@
+#!/usr/bin/env python
+#
+# Copyright (c) 2019, IT university of Copenhagen
+#
+# This software is licensed under the GNU GPL version 3 or any
+# later version, with permitted additional terms. For more information
+# see the Pycom Licence v1.0 document supplied with this file
+# Code: dac2.py -> PWM
+# IoT course
+#
+
+
+
 from machine import DAC, PWM
 import time
 pwm = PWM(0, frequency=500)  # use PWM timer 0, with a frequency of 500Hz
