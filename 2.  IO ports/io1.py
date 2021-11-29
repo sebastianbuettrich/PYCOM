@@ -1,5 +1,16 @@
-from machine import Pin
-import time
+#!/usr/bin/env python
+#
+# Copyright (c) 2019, IT university of Copenhagen
+#
+# This software is licensed under the GNU GPL version 3 or any
+# later version, with permitted additional terms. For more information
+# see the Pycom Licence v1.0 document supplied with this file
+# Code: io1.py -> Simple Output ports configuration (Hello World..!!)
+# IoT course
+#
+
+from machine import Pin # library
+import time             #library
 # individual configuration
 led1 = Pin('P13', mode=Pin.OUT) #p13 as output
 led2 = Pin('P14', mode=Pin.OUT) #p14 as output
