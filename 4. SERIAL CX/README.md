@@ -14,5 +14,5 @@
 ```
 ## Examples:
 ```
-
+cx1.py -> Read/Write chart/strings
 ```
