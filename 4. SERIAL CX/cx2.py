@@ -1,3 +1,14 @@
+#!/usr/bin/env python
+#
+# Copyright (c) 2019, IT university of Copenhagen
+#
+# This software is licensed under the GNU GPL version 3 or any
+# later version, with permitted additional terms. For more information
+# see the Pycom Licence v1.0 document supplied with this file
+# Code: cx2.py -> convert string to int serial cx
+# IoT course
+#
+
 from machine import UART
 import time
 uart = UART(0, baudrate=115200)
