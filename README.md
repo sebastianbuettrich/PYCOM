@@ -29,5 +29,5 @@ ctrl-shift-enter : Run current Line
 
 ### Chapter 2: Input/Output ports
 ### Chapter 3: Digital Analog conversion
-## ADVANCE:
 ### Chapter 4: CX Serial
+## ADVANCE:
