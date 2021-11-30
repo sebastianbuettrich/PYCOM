@@ -1,7 +1,9 @@
 # PYCOM
 Software development for pycom platform
 ## BASIC:
-
+Documentation: 
+[Pycom documentation](https://docs-mk2.readthedocs.io/en/latest/)
+[Pycom docs](https://alepycom.gitbooks.io/pycom-docs/content/)
 ### Chapter 1: Getting started
 Commands
 ```
