@@ -5,7 +5,7 @@ Documentation:
 [Pycom documentation](https://docs-mk2.readthedocs.io/en/latest/)
 [Pycom docs](https://alepycom.gitbooks.io/pycom-docs/content/)
 
-### Pin Diagrama:
+### PinOut Guide:
 
 ![PYCOM](https://github.com/puldavid87/PYCOM/blob/main/fipy-pinout.png)
 
