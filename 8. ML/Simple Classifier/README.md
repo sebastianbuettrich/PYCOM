@@ -105,5 +105,8 @@ ax.set_ylabel("Temperature")
 ax.set_zlabel("HUmidity")
 plt.show()
 ```
+![Figure](https://github.com/puldavid87/PYCOM/blob/main/8.%20ML/Simple%20Classifier/fig.png)
+
+
 ## Step 3: Export the inference ## 
 ## Step 4: Real tests ## 
