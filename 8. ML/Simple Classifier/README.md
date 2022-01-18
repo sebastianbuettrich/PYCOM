@@ -11,7 +11,7 @@ Machine learning algorithms can describe phenomena or human behavior through com
 
 The electronic system proposed is to detect if the SCD30 (CO2, temperature, and humidity) sensor has been tampered with by people blowing on him. Therefore, the electronic system can detect two labels: adequate environmental data and tampered data. The code is developed in Python. 
 
-### Assembling the training and test set###
+### Assembling the training and test set ###
  The electronic system takes samples every 5 seconds for three variables sending them by Serial communication to a server/desktop to store them. As a result, the dataset has 400 samples for label 1 and 200 samples for label 2. The dataset can be download here: [link](https://github.com/puldavid87/PYCOM/blob/main/8.%20ML/Simple%20Classifier/data.csv).
  
  To receive the data and store them from the computer, the Python code is:
