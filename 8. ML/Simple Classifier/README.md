@@ -81,5 +81,29 @@ while True:
 ```
 
 ## Step 2: Model construction ##
+
+### Split the data set in training and test set ###
+```
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import confusion_matrix
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+
+dataset=pd.read_csv('data.csv', sep=';')
+X= dataset.iloc[:,:-1].values
+y=dataset.iloc[:,-1].values
+X_train, X_test,y_train,y_test=train_test_split(X,y,test_size=0.2, random_state=0)
+
+#Figure because we can :)
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+ax.scatter(X_train[:,0],X_train[:,1],X_train[:,2],c=y_train+1)
+ax.set_xlabel("CO2")
+ax.set_ylabel("Temperature")
+ax.set_zlabel("HUmidity")
+plt.show()
+```
 ## Step 3: Export the inference ## 
 ## Step 4: Real tests ## 
