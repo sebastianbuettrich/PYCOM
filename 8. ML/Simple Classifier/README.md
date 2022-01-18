@@ -53,7 +53,7 @@ dataset.to_csv("data1.csv")
  ```
 The code in the electronic device is:
 
-```
+``` python
 import time
 import math
 import pycom
@@ -83,7 +83,8 @@ while True:
 ## Step 2: Model construction ##
 
 ### Split the data set in training and test set ###
-```
+
+``` python
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -112,7 +113,7 @@ plt.show()
 To see and understand better, you can check this: [Support vector machines](https://scikit-learn.org/stable/modules/svm.html) and [Decision tree](https://scikit-learn.org/stable/modules/tree.html).
 
 ### SVM model ###
-```
+``` python
 from sklearn.svm import SVC
 from sklearn.metrics import confusion_matrix
 
@@ -123,7 +124,8 @@ y_pred=classifier.predict(X_test)
 print(confusion_matrix(y_test,y_pred))
 ```
 ### Decision tree model ###
-```
+
+``` python
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import confusion_matrix
 
@@ -137,14 +139,16 @@ print(confusion_matrix(y_test,y_pred)
 ## Step 3: Export the inference ## 
 Library for export the model: [m2cgen](https://github.com/BayesWitnesses/m2cgen)
 ### SVM model ###
-```
+
+``` python
 import m2cgen as m2c
 code1=m2c.export_to_python(classifier)
 print(code1)
 
 ```
 ### Decision tree model ###
-```
+
+``` python
 import m2cgen as m2c
 code2=m2c.export_to_python(tree_model)
 print(code2)
@@ -155,7 +159,8 @@ print(code2)
 
 The model can be exported in an external file .py to call it in the main function to run it in the electronic device.
 
-```
+``` python
+
 import time
 import math
 import pycom
