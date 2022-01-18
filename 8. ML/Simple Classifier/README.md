@@ -111,5 +111,44 @@ plt.show()
 
 To see and understand better, you can check this: [Support vector machines](https://scikit-learn.org/stable/modules/svm.html) and [Decision tree](https://scikit-learn.org/stable/modules/tree.html).
 
+### SVM model ###
+```
+from sklearn.svm import SVC
+from sklearn.metrics import confusion_matrix
+
+#train the model
+classifiert=SVC(kernel='linear', gamma=0.001).fit(X_train,y_train)
+y_pred=classifier.predict(X_test)
+# classification performance
+print(confusion_matrix(y_test,y_pred))
+```
+### Decision tree model ###
+```
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import confusion_matrix
+
+
+#train the model
+tree_model = DecisionTreeClassifier().fit(X_train,y_train) 
+y_pred =tree_model.predict(X_test)
+# classification performance
+print(confusion_matrix(y_test,y_pred)
+```
 ## Step 3: Export the inference ## 
+Library for export the model: [m2cgen](https://github.com/BayesWitnesses/m2cgen)
+### SVM model ###
+```
+import m2cgen as m2c
+code1=m2c.export_to_python(classifier)
+print(code1)
+
+```
+### Decision tree model ###
+```
+import m2cgen as m2c
+code2=m2c.export_to_python(tree_model)
+print(code2)
+
+```
+
 ## Step 4: Real tests ## 
