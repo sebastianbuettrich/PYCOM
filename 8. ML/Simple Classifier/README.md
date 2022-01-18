@@ -15,7 +15,7 @@ The electronic system proposed is to detect if the SCD30 (CO2, temperature, and 
  The electronic system takes samples every 5 seconds for three variables sending them by Serial communication to a server/desktop to store them. As a result, the dataset has 400 samples for label 1 (sensor is working normally) and 200 samples for label 2 (you have to blow over the sensor). The dataset can be download here: [link](https://github.com/puldavid87/PYCOM/blob/main/8.%20ML/Simple%20Classifier/data.csv).
  
  To receive the data and store them from the computer, the Python code is:
- ```
+ ``` python
 #Libraries:
 
 import pandas as pd
