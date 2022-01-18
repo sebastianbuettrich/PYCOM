@@ -107,6 +107,9 @@ plt.show()
 ```
 ![Figure](https://github.com/puldavid87/PYCOM/blob/main/8.%20ML/Simple%20Classifier/fig.png)
 
+### Classification models ### 
+
+To see and understand better, you can check this: [Support vector machines](https://scikit-learn.org/stable/modules/svm.html) and [Decision tree](https://scikit-learn.org/stable/modules/tree.html).
 
 ## Step 3: Export the inference ## 
 ## Step 4: Real tests ## 
