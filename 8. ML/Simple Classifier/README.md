@@ -51,7 +51,7 @@ while True:
 #export to csv the model
 dataset.to_csv("data1.csv")
  ```
-The code in the electronic device is:
+The code in the embedded device (e.g. pycom lopy)  is:
 
 ``` python
 import time
@@ -133,7 +133,7 @@ from sklearn.metrics import confusion_matrix
 tree_model = DecisionTreeClassifier().fit(X_train,y_train) 
 y_pred =tree_model.predict(X_test)
 # classification performance
-print(confusion_matrix(y_test,y_pred)
+print(confusion_matrix(y_test,y_pred))
 ```
 ## Step 3: Export the inference ## 
 Library for export the model: [m2cgen](https://github.com/BayesWitnesses/m2cgen)
