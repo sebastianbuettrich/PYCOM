@@ -129,7 +129,6 @@ print(confusion_matrix(y_test,y_pred))
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import confusion_matrix
 
-
 #train the model
 tree_model = DecisionTreeClassifier().fit(X_train,y_train) 
 y_pred =tree_model.predict(X_test)
